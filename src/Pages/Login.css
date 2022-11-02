@@ -1,0 +1,14 @@
+.register-form{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.link-to-register-login{
+    text-decoration: none;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}

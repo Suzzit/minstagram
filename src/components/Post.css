@@ -1,0 +1,87 @@
+.post{
+    height: 300px;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+.fetchposts-container{
+    height: fit-content;
+}
+
+.post-section-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.post .post-details{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.post .post-details .post-on{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.post .post-details .post-on span{
+    margin: 5px;
+}
+
+.post .post-details .post-by{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.post .post-details .post-by img{
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+    border-radius: 100%;
+    background-color: aqua;
+    margin: 5px;
+}
+
+.post .post-details .post-by span{
+    display: flex;
+    align-items: flex-end;
+    padding: 5px 0px;
+    height: 100%;
+}
+
+.post .post-details .post-by h2{
+    display: inline;
+    height: 100%;
+    color: black;
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 5px !important;
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+
+.post .post-data{
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+}
+
+.post .post-data h2{
+    width: fit-content;
+    max-width: 100%;
+    height: fit-content;
+    padding: 5px;
+    color: black;
+}
+
+.post .post-data .post-body{
+    padding: 5px;
+    height: 100%;
+}
+

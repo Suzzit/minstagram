@@ -1,0 +1,14 @@
+.feed-container{
+    height: 100%;
+    width: 50%;
+}
+
+.create-post-div{
+    height: 180px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.posts-list{
+    height: 100%;
+}

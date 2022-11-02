@@ -1,0 +1,11 @@
+.home-container{
+    height: 100%;
+    width: 100%;
+}
+
+.hero-section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}   
